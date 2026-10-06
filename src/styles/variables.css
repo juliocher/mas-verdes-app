@@ -1,0 +1,60 @@
+/* ========================================================
+   MÁS VERDES — DESIGN TOKENS & SYSTEM VARIABLES
+   Inspirado en la botánica andina y la artesanía de Cusco
+   ======================================================== */
+
+:root {
+  /* --- PALETA ANDINA PRINCIPAL --- */
+  --green-dark: #1b3322;        /* Verde Bosque Andino Profundo */
+  --green-mid: #2c5234;         /* Verde Orgánico */
+  --green-light: #497c55;       /* Verde Suave */
+  --green-pale: #eaf2eb;        /* Acento botánico claro */
+  --green-muted: #d5e4d7;       /* Fondo suave */
+  
+  /* --- ACENTOS DE TIERRA & ORO --- */
+  --gold: #c5a880;              /* Dorado Sagrado */
+  --gold-dark: #a4865e;         /* Oro envejecido */
+  --gold-light: #dfcaa8;        /* Resplandor */
+  --beige: #f7f5f0;             /* Tierra / Pergamino */
+  --cream: #fdfbf9;             /* Fondo orgánico principal */
+  --white: #ffffff;
+  
+  /* --- TIPOGRAFÍA Y TEXTOS (WCAG AA Contrast Compliant) --- */
+  --text-dark: #141b16;         /* Contraste 13:1 sobre blanco/crema */
+  --text-mid: #3a453d;          /* Contraste 7:1 */
+  --text-light: #526056;        /* Contraste > 4.5:1 para AA */
+  --text-muted: #6b7a6f;
+  
+  /* --- BORDES Y ESTADOS --- */
+  --border-light: #e0e9d9;
+  --border-subtle: rgba(27, 51, 34, 0.08);
+  --border-gold: rgba(197, 168, 128, 0.4);
+  
+  /* --- SOMBRAS SUAVES ELEVADAS --- */
+  --shadow-xs: 0 1px 3px rgba(27, 51, 34, 0.04);
+  --shadow-sm: 0 4px 12px rgba(27, 51, 34, 0.06);
+  --shadow-md: 0 10px 28px rgba(27, 51, 34, 0.08);
+  --shadow-lg: 0 20px 48px rgba(27, 51, 34, 0.12);
+  --shadow-glow: 0 0 24px rgba(197, 168, 128, 0.35);
+
+  /* --- RADIOS Y MEDIDAS --- */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* --- TIPOGRAFÍAS --- */
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-script: 'Dancing Script', cursive;
+
+  /* --- TRANSICIONES SUAVES --- */
+  --transition-fast: 0.18s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-normal: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* --- DIMENSIONES DE LAYOUT --- */
+  --container-max: 1200px;
+  --header-height: 80px;
+}
